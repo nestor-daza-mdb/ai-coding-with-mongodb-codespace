@@ -16,13 +16,9 @@
   ```bash
   setup-keys.sh
 
-  Paste the workshop passkey your instructor shows on screen. Then:
-  
-  claude
-
-  Follow your instructor from there.
+  Paste the workshop passkey your instructor shows on screen. Then follow the instructions
 
   Requirements
 
-  A GitHub account. That's it. Codespaces includes 60 free hours per month for personal accounts, which more than
+  A GitHub account.\Codespaces includes 60 free hours per month for personal accounts, which more than
   covers the workshop.
