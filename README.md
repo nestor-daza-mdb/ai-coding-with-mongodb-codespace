@@ -2,8 +2,7 @@
   
   Click the button below to open the workshop environment in your browser. No installation needed.
   
-  [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/nestor-daza-mdb/ai-
-  coding-with-mongodb-codespace?quickstart=1)
+  [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/nestor-daza-mdb/ai-coding-with-mongodb-codespace?quickstart=1)
 
   ## What you'll do
 
