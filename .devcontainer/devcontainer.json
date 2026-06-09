@@ -1,0 +1,25 @@
+{
+    "name": "AI Coding with MongoDB Workshop",
+    "image": "ghcr.io/nestor-daza-mdb/ubuntu-aicoding:latest",
+    "remoteUser": "root",
+    "workspaceFolder": "/root/project",
+    "overrideCommand": true,
+    "postStartCommand": "pgrep mongod >/dev/null || (mkdir -p /data/db /var/log/workshop && mongod --fork --bind_ip 
+  127.0.0.1 --port 27017 --dbpath /data/db --logpath /var/log/workshop/mongod.log)",
+    "forwardPorts": [3000],
+    "portsAttributes": {
+      "3000": {
+        "label": "Workshop API",
+        "onAutoForward": "notify"
+      }
+    },
+    "hostRequirements": {
+      "cpus": 4,
+      "memory": "8gb"
+    },
+    "customizations": {
+      "vscode": {
+        "extensions": ["mongodb.mongodb-vscode"]
+      }
+    }
+  }
